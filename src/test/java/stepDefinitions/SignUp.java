@@ -12,7 +12,7 @@ import utility.RandomText;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class SingUp {
+public class SignUp {
 
     WebDriver driver = new ChromeDriver();
     SignUpPage signup= PageFactory.initElements(driver,SignUpPage.class);
