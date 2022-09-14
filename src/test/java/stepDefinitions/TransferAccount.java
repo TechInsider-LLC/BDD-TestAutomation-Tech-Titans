@@ -27,7 +27,7 @@ public class TransferAccount {
         getDriver().findElement(By.cssSelector(".fields-container [type=\"email\"]")).sendKeys(username);
         getDriver().findElement(By.cssSelector(".fields-container [type=\"password\"]")).sendKeys(password);
         getDriver().findElement(By.cssSelector("[type=\"submit\"]")).click();
-        Thread.sleep(3000);
+        getDriver().findElement(By.cssSelector("div[ng-reflect-router-link='/transfer']")).click();
         getDriver().findElement(By.cssSelector("div[ng-reflect-router-link='/transfer']")).click();
         getDriver().findElement(By.cssSelector(".section:nth-child(1) .section__heading")).click();
         getDriver().findElement(By.cssSelector(".account-select:nth-child(1) [role=\"listbox\"]")).click();
