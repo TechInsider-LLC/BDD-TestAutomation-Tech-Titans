@@ -39,7 +39,7 @@ public class SignUpPage {
     public WebElement corporate;
     @FindBy(css="#company-n-corp")
     public WebElement companyName;
-    @FindBy(css=".input-field .error-word")
+    @FindBy(css=".fields-container__row:nth-child(3) .input-field .error-word")
     public WebElement errorMessageLoct;
 
     public String successMessage=" A welcome message with further instructions has been sent to your e-mail address.";
