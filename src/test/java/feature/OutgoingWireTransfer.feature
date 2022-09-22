@@ -8,7 +8,7 @@ Feature: Outgoing wire Transfer
     And Select account and fills the form then click on continue
     And User on Transfer details page Scrolls down end click on continue
     Then Users Transaction success
-#    When Admin approves transaction
+   When Admin approves transaction
 
   Scenario: OutGoing Wire Transfer Unsuccessfully
     Given User on the Ebanq page
